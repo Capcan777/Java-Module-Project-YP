@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class Item {
-    String item;
-    double cost;
+    final String item;
+    final double cost;
 
     public Item(String item, double cost) {
         this.item = item;
